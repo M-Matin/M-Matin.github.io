@@ -1,0 +1,295 @@
+h2,
+h3,
+h4 {
+  text-transform : uppercase;
+  font-family    : "Roboto Condensed",
+                   sans-serif;
+  letter-spacing : 0.1em;
+}
+
+h1 {
+  text-transform : uppercase;
+  font-family    : "Roboto Condensed",
+                   sans-serif;
+  font-size      : 300%;
+  letter-spacing : 0.1em;
+}
+
+.main-container {
+  width     : 100%;
+  max-width : 100%;
+}
+
+.main-logo {
+  margin-top    : 20%;
+  margin-bottom : 5%;
+}
+
+.main-title {
+  margin : 10% 0 120% 0;
+}
+
+p {
+  font-family    : monospace;
+  letter-spacing : 0.001em;
+}
+
+@media (min-width: 400px)
+       and (max-width: 450px) {
+  .project-box-logo {
+    padding-top : 10%;
+  }
+}
+
+@media (min-width: 700px)
+       and (max-width: 1000px) {
+  .project-p {
+    font-size : 2em;
+  }
+
+  .project-box-logo {
+    padding-top : 30%;
+  }
+}
+
+@media (max-width: 399px) {
+  .project-box-logo {
+    padding-top : 20%;
+  }
+}
+
+@media (min-width: 1023px) {
+  .project-box-logo {
+    padding-top : 10%;
+  }
+}
+
+/*
+  -- - - - - - - - - - - - - - - - - - - -left-col-style- - - - - - - - - - - -
+  - - - - - - - --
+*/
+
+
+.left-col {
+  height           : 900px;
+  overflow         : scroll;
+  background-color : #fad029;
+}
+
+.project-box {
+  position         : relative;
+  height           : 100%;
+  margin-bottom    : 25%;
+  background-color : #ffffff;
+}
+
+.project-p {
+  max-width   : 150%;
+  padding     : 0 0 10% 30%;
+  font-family : Arial,
+                Helvetica,
+                freesans,
+                sans-serif;
+}
+
+.project-box-logo {
+  font-size   : 2em;
+  font-weight : bolder;
+}
+
+.project-circle {
+  position         : absolute;
+  top              : 30%;
+  width            : 30%;
+  height           : 40%;
+  margin-left      : -15%;
+  color            : #ffffff;
+  border-radius    : 100%;
+  background-color : #fad029;
+}
+
+.comingsoon-pic {
+  width         : 100%;
+  max-width     : 100%;
+  margin-bottom : 240px;
+}
+
+/*
+  -- - - - - - - - - - - - - - - - - - - -center-col-style- - - - - - - - - - -
+  - - - - - - - - --
+*/
+
+
+.center-col {
+  height           : 900px;
+  overflow         : scroll;
+  background-color : #ffffff;
+}
+
+.profile-title {
+  color : #a9a9a9;
+}
+
+.about-p {
+  margin-bottom : 5%;
+  font-family   : Arial,
+                  Helvetica,
+                  freesans,
+                  sans-serif;
+  font-size     : 150%;
+  line-height   : 2em;
+}
+
+.profile-h2 {
+  margin-bottom : 5%;
+  color         : #a9a9a9;
+}
+
+.facebook-logo {
+  color : #3b5998;
+}
+
+.pinterest-logo {
+  color : #bd081c;
+}
+
+.github-logo {
+  color : #040005;
+}
+
+.twitter-logo {
+  color : #55acee;
+}
+
+.linkedin-logo {
+  color : #000000;
+}
+
+.contact-form {
+  padding          : 8% 6%;
+  background-color : #ebebeb;
+}
+
+.form-control {
+  border        : 1px solid #ffffff;
+  border-radius : 0;
+}
+
+.profile-btn {
+  color            : #a9a9a9;
+  border-radius    : 0;
+  background-color : #ffffff;
+  cursor           : pointer;
+}
+
+.input-group-addon {
+  border           : none;
+  border-radius    : 0;
+  background-color : #ffffff;
+}
+
+.input-group {
+  margin-bottom : 20px;
+}
+
+.contact-container {
+  margin : 200px 0;
+}
+
+.heart {
+  display : inline-flex;
+}
+
+.footer-p {
+  padding-bottom : 1em;
+  color          : #a9a9a9;
+  font-size      : 80%;
+}
+
+/*
+  -- - - - - - - - - - - - - - - - - - -right-col-style- - - - - - - - - - - - -
+  - - - - - - --
+*/
+
+
+.right-col {
+  height           : 900px;
+  overflow         : scroll;
+  background-color : #1c2c30;
+}
+
+.skill-title {
+  color : #ffffff;
+}
+
+.progress-title {
+  margin : 4em 0 2em 0;
+  color  : #ffffff;
+}
+
+.progress-row {
+  margin : 5% 0;
+}
+
+.myProgress {
+  position         : relative;
+  width            : 90%;
+  height           : 3em;
+  float            : inherit;
+  margin           : 5%;
+  border-radius    : 1%;
+  background-color : #ddd;
+}
+
+.myBar {
+  position : absolute;
+  height   : 100%;
+}
+
+.progress-text {
+  position     : relative;
+  float        : left;
+  padding-left : 3%;
+  color        : #ffffff;
+}
+
+.progress-percent {
+  position      : relative;
+  float         : right;
+  padding-right : 3%;
+  color         : #ffffff;
+}
+
+.html-progress {
+  width            : 98%;
+  background-color : #db3726;
+}
+
+.css-progress {
+  width            : 85%;
+  background-color : #3999d8;
+}
+
+.js-progress {
+  width            : 75%;
+  background-color : #fad330;
+}
+
+.boots-progress {
+  width            : 80%;
+  background-color : #3a1649;
+}
+
+.jq-progress {
+  width            : 75%;
+  background-color : #3999d8;
+}
+
+.git-progress {
+  width            : 50%;
+  background-color : #040005;
+}
+
+.skills-section {
+  margin-bottom : 220px;
+}
