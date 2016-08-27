@@ -6,6 +6,12 @@ h4 {
                    sans-serif;
   letter-spacing : 0.1em;
 }
+a:link,
+a:visited,
+a:hover,
+a:active{
+  style: none;
+}
 
 h1 {
   text-transform : uppercase;
